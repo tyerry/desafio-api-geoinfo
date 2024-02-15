@@ -1,14 +1,14 @@
-Desafio: Consumidor de API de Informações Geográficas e Criação de API
+# Desafio: Consumidor de API de Informações Geográficas e Criação de API
 
-Objetivo Geral:
+> Objetivo Geral:
 
-Desenvolver um sistema composto por duas partes principais:
+## Desenvolver um sistema composto por duas partes principais:
 
 API RESTful: Criar uma API RESTful que forneça informações sobre países, permitindo busca por região e palavra-chave.
 Aplicativo Consumidor: Desenvolver um aplicativo em sua linguagem de programação preferida que consuma esta API para buscar informações sobre países com base na região e em uma palavra-chave específica.
 
-Parte 1: Criação da API RESTful
-Objetivos da API:
+### Parte 1: Criação da API RESTful
+> Objetivos da API:
 
 Implementar endpoints que permitam aos usuários buscar países por região e palavra-chave.
 A API deve suportar paginação nas respostas, incluindo metadados sobre a paginação nos resultados.
@@ -22,8 +22,8 @@ Tecnologias Sugeridas:
 
 A API pode ser implementada usando frameworks como Flask ou FastAPI para Python, Spring Boot para Java, ou Echo ou Gin para Go.
 
-Parte 2: Aplicativo Consumidor
-Objetivos do Aplicativo:
+### Parte 2: Aplicativo Consumidor
+> Objetivos do Aplicativo:
 
 Consumir a API RESTful criada na Parte 1 para buscar informações sobre países com base na região e palavra-chave fornecidas pelo usuário.
 Processar a resposta paginada da API e apresentar uma lista de países e suas respectivas populações.
